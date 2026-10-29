@@ -40,7 +40,7 @@
         print'<input type="button" onclick="history.back()" value="戻る">';
         print'</form>';
     } else {
-        print'<form method="post" action="member_add_dpne.php">';
+        print'<form method="post" action="member_add_done.php">';
         print'<input name="nickname" type="hidden" value="'.$nickname.'">';
         print'<input name="email" type="hidden" value="'.$email.'">';
         print'<input name="goiken" type="hidden" value="'.$goiken.'">';
